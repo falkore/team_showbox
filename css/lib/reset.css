@@ -14,10 +14,10 @@ font-family: 'noto_sans_krthin';
 
 		*, html, body, h1, h2, h3, h4, h5, h6, p, div, img{
 			margin: 0; padding:0; border:0; vertical-align: top; 	color:#333; 
-			font:100%/1.2 'noto_sans_kr_regular', "myriad pro", arial, "noto sans", nanumGothic, dotum, sans-serif;}
+			font:100%/1.2 "myriad pro", 'noto_sans_kr_regular', arial, "noto sans", nanumGothic, dotum, sans-serif;}
 		ul, ol, li{list-style: none;}
 		a{text-decoration: none; color:#777;}
-		a:hover{text-decoration: underline; color:#d05;}
+		a:hover{color: #f5a601;}
 		table,tr,td,th,thead,tbody,tfoot{border:1px solid #777; 
 			border-spacing: 0; border-collapse: collapse;}
 		address{font-style:normal;}
