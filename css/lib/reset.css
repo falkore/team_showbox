@@ -14,12 +14,13 @@ font-family: 'noto_sans_krthin';
 
 		*, html, body, h1, h2, h3, h4, h5, h6, p, div, img{
 			margin: 0; padding:0; border:0; vertical-align: top; 	color:#333; 
-			font:100%/1.2 'noto_sans_kr_regular', "myriad pro", arial, "noto sans", nanumGothic, dotum, sans-serif;}
+			/*font:100%/1.2 "myriad pro", arial, "noto sans", nanumGothic, dotum, sans-serif*/;}
 		ul, ol, li{list-style: none;}
 		a{text-decoration: none; color:#777;}
-		a:hover{text-decoration: underline; color:#d05;}
-		table,tr,td,th,thead,tbody,tfoot{border:1px solid #777; 
-			border-spacing: 0; border-collapse: collapse;}
+		a:hover{color: #f5a601;}
+/*		table,tr,td,th,thead,tbody,tfoot{
+            border:1px solid #777; 
+			border-spacing: 0; border-collapse: collapse;}*/
 		address{font-style:normal;}
 		input, textarea{border:1px solid #777; text-indent:5px;}
 		input[type="submit"],
@@ -27,7 +28,6 @@ font-family: 'noto_sans_krthin';
 		input[type="image"],
 		input[type="button"]{border:0}
 		input:focus{background-color:#fcc;}
-        *:focus{outline: 2px solid #f06; position: relative; z-index: 5000;}
 
 /*html5*/
 header, article, nav, aside, footer, section, figure, figcation{ 

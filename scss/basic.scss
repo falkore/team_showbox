@@ -3,21 +3,26 @@
 
 $white: #FBFBFB; 
 $black: #141414; 
+$gray03: #676767;
 $gray02: #D5D5D5; 
 $gray01: #E1E1E1; 
+$orange: #f5a601;
 
 
-/*  가상클래스  --------------------------------*/
+/*  --------------------------------*/
 %link{width: 100%; height: 100%; display: block;
     background-repeat: no-repeat;}
 %hidden{width: 0; height: 0; display: block; overflow: hidden;}
+%block{width: 100%; height: 100%; display: block;}
 
 
 @mixin fontOpt($size: 1rem, $bold: normal, $color: $white, $deco: none, $style: none){
     font-size: $size; font-weight: $bold; color: $color;
-    test-decoration: $deco; font-style: $style;
+    text-decoration: $deco; font-style: $style;
+    font-family: 'Myriad Pro', 'noto_sans_kr_regular', arial, "noto sans", nanumGothic, dotum, sans-serif;
 }
-@mixin backOpt($repeat: no-repeat, $position: center center){
+@mixin backOpt($repeat: no-repeat, $position: center center, $size: contain){
     display: block; background-repeat: $repeat;
     background-position: $position;
+    background-size: $size;
 }
